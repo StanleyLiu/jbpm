@@ -24,7 +24,7 @@ public class Cart extends GeneratorKey{
 	private Date createTime;//创建时间
 	private Date updateTime;//修改时间
 	private String memberNo;//会员编号
-	private List<CartItem> cartItems;//购物车条目
+	private List<CartItem> cartItems;//购物车条目列表
 	private String shopNo;
 	@GenericGenerator(name = "generator", strategy = "uuid.hex")
 	@GeneratedValue(generator = "generator")
