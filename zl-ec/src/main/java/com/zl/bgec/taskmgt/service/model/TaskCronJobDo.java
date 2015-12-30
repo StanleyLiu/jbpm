@@ -72,6 +72,7 @@ public class TaskCronJobDo implements Serializable {
 
 	@Override
 	public String toString() {
+		
 		return "TaskCronJobDo [jobNo=" + jobNo + ", jobName=" + jobName
 				+ ", jobClassName=" + jobClassName + ", jobDescription="
 				+ jobDescription + ", cronExpr=" + cronExpr
